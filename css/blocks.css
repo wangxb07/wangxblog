@@ -1,0 +1,144 @@
+/**
+ * @file
+ * Block Styling
+ */
+
+
+.block { /* Block wrapper */
+  margin-bottom: 1.5em;
+}
+
+.block.first { /* The first block in the region */
+}
+
+.block.last { /* The last block in the region */
+}
+
+.block.odd { /* Zebra striping for each block in the region */
+}
+
+.block.even { /* Zebra striping for each block in the region */
+}
+
+h2.block-title { /* Block title */
+  color: #d7adae;
+  border-bottom: 3px solid #E7E6E2;
+  font-size: 14px;
+}
+
+#block-aggregator-category-1 { /* Block for the latest news items in the first category */
+}
+
+#block-aggregator-feed-1 { /* Block for the latest news items in the first feed */
+}
+
+#block-block-1 { /* First block created with "Add block" link */
+}
+
+#block-blog-recent { /* "Recent blog posts" block */
+}
+
+#block-book-navigation { /* "Book navigation" block for the current book's table of contents */
+}
+
+#block-comment-recent { /* "Recent comments" block */
+}
+
+#block-forum-active { /* "Active forum topics" block */
+}
+
+#block-forum-new { /* "New forum topics" block */
+}
+
+#block-locale-language { /* Language switcher block */
+}
+
+#block-menu-menu-NAME { /* Custom menu block */
+}
+
+#block-node-recent { /* "Recent content" block */
+}
+
+#block-node-syndicate { /* "Syndicate" block for primary RSS feed; see also page.css's .feed-icon */
+}
+
+#block-poll-recent { /* "Most recent poll" block */
+}
+
+#block-profile-author-information { /* "Author information" block for the profile of the page's author */
+}
+
+#block-search-form { /* "Search form" block */
+  float: right;
+}
+#block-search-form .form-text,
+#block-search-form .form-submit {
+  border: 0 none;
+  background-color: #ffffff;
+}
+#block-search-form .form-submit {
+  height: 20px;
+  color: #d7adae;
+}
+#block-search-form .container-inline {
+  background-color: #ffffff;
+}
+
+#block-shortcut-shortcuts { /* "Shortcuts" block */
+}
+
+#block-statistics-popular { /* "Popular content" block */
+}
+
+#block-system-main-menu { /* "Main menu" block */
+}
+
+#block-system-management { /* "Management" block for Drupal management menu */
+}
+
+#block-system-navigation { /* "Navigation" block for Drupal navigation menu */
+}
+
+#block-system-navigation ul { /* menu li in navigation block */
+  padding: 0;
+}
+
+#block-system-navigation ul li {
+  text-align: right;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 25px;
+  margin-bottom: 2px;
+}
+
+#block-system-user-menu { /* "User menu" block for Drupal user menu */
+}
+
+#block-system-help { /* "System help" block */
+}
+
+#block-system-main { /* "Main page content" block */
+}
+
+#block-system-powered-by { /* "Powered by Drupal" block */
+}
+
+#block-user-login { /* "User login form" block */
+}
+
+#block-user-new { /* "Who's new" block for a list of the newest users */
+}
+
+#block-user-online { /* "Who's online" block for a list of the online users */
+}
+
+/*
+ * ""Top ten"" block
+ */
+#block-views-blog-block-top-ten {
+}
+#block-views-blog-block-top-ten p {
+  margin: 5px 0;
+  font-size: 12px;
+  color: #6f706a;
+}
