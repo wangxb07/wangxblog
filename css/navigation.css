@@ -23,7 +23,6 @@ li a.active {
 #navigation {
   /* overflow: hidden; */ /* Sometimes you want to prevent overlapping with main div. */
   padding: 0;
-  background-color: #ffffff;
 }
 
 #navigation-more-button {
@@ -32,6 +31,8 @@ li a.active {
   height: 1em;
   cursor: pointer;
   background-color: #999a94;
+  box-shadow: 0 0 10px 0 silver;
+  position: relative;
 }
 
 #navigation .block {
@@ -66,6 +67,7 @@ li a.active {
 .region-navigation {
   height: 200px;
   display: none;
+  background-color: #ffffff;
 }
 
 /*

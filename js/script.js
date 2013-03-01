@@ -61,8 +61,7 @@
 
         // navigation more button click bind
         $('#navigation-more-button').click(function() {
-            $('.region-navigation').show();
-            $('#navigation').animate({'height': '200px'});
+            $('.region-navigation').slideToggle();
         });
     });
 
