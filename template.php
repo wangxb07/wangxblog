@@ -200,14 +200,17 @@ function STARTERKIT_preprocess_comment(&$variables, $hook) {
  * @param $hook
  *   The name of the template being rendered ("region" in this case.)
  */
-/* -- Delete this line if you want to use this function
-function STARTERKIT_preprocess_region(&$variables, $hook) {
+
+function wangxblog_v2_preprocess_region(&$variables, $hook) {
   // Don't use Zen's region--sidebar.tpl.php template for sidebars.
   //if (strpos($variables['region'], 'sidebar_') === 0) {
   //  $variables['theme_hook_suggestions'] = array_diff($variables['theme_hook_suggestions'], array('region__sidebar'));
   //}
+  if ($variables['region'] == 'navigation') {
+    $variables['classes_array'][] = 'clearfix';
+  }
 }
-// */
+
 
 /**
  * Override or insert variables into the block templates.

@@ -65,9 +65,12 @@ li a.active {
 }
 
 .region-navigation {
-  height: 200px;
   display: none;
   background-color: #ffffff;
+}
+.region-navigation .block {
+  width: 25%;
+  float: left;
 }
 
 /*
