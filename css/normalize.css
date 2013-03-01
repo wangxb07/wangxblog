@@ -214,21 +214,26 @@ body {
  * http://meyerweb.com/eric/thoughts/2007/06/11/who-ordered-the-link-states
  */
 
-a:link {
+a {
   color: #6f706a;
+  text-decoration: none;
+}
+
+a:link {
 }
 
 a:visited {
-  color: #6f706a;
+  text-decoration: none;
 }
 
 a:hover,
 a:focus {
-  color: #6f706a;
+  color: #d08d85;
+  text-decoration: underline;
 }
 
 a:active {
-  color: #6f706a;
+  color: #d08d85;
 }
 
 /*

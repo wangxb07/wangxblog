@@ -74,14 +74,14 @@ h2.block-title { /* Block title */
 #block-search-form .form-text,
 #block-search-form .form-submit {
   border: 0 none;
-  background-color: #ffffff;
+  background-color: #e7e6e2;
 }
 #block-search-form .form-submit {
   height: 20px;
   color: #d7adae;
 }
 #block-search-form .container-inline {
-  background-color: #ffffff;
+  background-color: #e7e6e2;
 }
 
 #block-shortcut-shortcuts { /* "Shortcuts" block */
@@ -141,4 +141,7 @@ h2.block-title { /* Block title */
   margin: 5px 0;
   font-size: 12px;
   color: #6f706a;
+}
+#block-views-blog-block-top-ten .node-title {
+  font-weight: bold;
 }
