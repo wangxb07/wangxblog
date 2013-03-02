@@ -56,7 +56,12 @@
 
         // navigation button click bind
         $('#navigation-button').click(function() {
-            navigation_toggle_by_button = true;
+            if ($('#block-system-navigation').css('display') == 'none') {
+                navigation_toggle_by_button = true;
+            }
+            else {
+                navigation_toggle_by_button = false;
+            }
             $('#block-system-navigation').toggle();
         });
 
