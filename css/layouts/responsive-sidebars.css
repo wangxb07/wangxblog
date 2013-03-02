@@ -80,7 +80,6 @@
   #navigation {
     position: fixed;
     top: 0; /* Move the navbar up inside #main's padding. */
-    height: 1em;
     width: 100%;
   }
 }
