@@ -27,7 +27,7 @@
     // locate sideber function
     var sidebar_locate = function() {
         var scroll_top = $(document).scrollTop();
-        $('.region-sidebar-first').animate({'top': scroll_top});
+        $('.region-sidebar-first').animate({'top': scroll_top + $('#navigation').height()});
 
         if (scroll_top > 0) {
             $('#navigation-button').show();
@@ -36,7 +36,8 @@
                 return false;
             }
             $('#block-system-navigation').hide();
-        } else {
+        }
+        else {
             $('#block-system-navigation').show();
             $('#navigation-button').hide();
         }
@@ -60,8 +61,24 @@
         });
 
         // navigation more button click bind
-        $('#navigation-more-button').click(function() {
+        $('#full-button').click(function() {
+            if ($('.region-navigation').css('display') == 'block') {
+                $(this).css('color', '#ffffff');
+            }
+            else {
+                $(this).css('color', '#6f706a');
+            }
             $('.region-navigation').slideToggle();
+        });
+
+        $('#menu-button').click(function() {
+            if ($('#main-menu').css('display') == 'block') {
+                $(this).css('color', '#ffffff');
+            }
+            else {
+                $(this).css('color', '#6f706a');
+            }
+            $('#main-menu').slideToggle();
         });
     });
 

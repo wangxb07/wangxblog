@@ -158,14 +158,13 @@
 
   </div><!-- /#main -->
 
-
-
-
   <?php print render($page['footer']); ?>
 
 </div><!-- /#page -->
 
 <div id="navigation">
+
+  <?php print render($page['navigation']); ?>
 
   <?php if ($main_menu): ?>
     <nav id="main-menu" role="navigation">
@@ -188,8 +187,11 @@
     </nav>
   <?php endif; ?>
 
-  <?php print render($page['navigation']); ?>
-  <div id="navigation-more-button">
+  <div id="navigation-more-button" class="item-list clearfix">
+    <ul class="clearfix">
+      <li id="menu-button">MENU</li>
+      <li id="full-button">FULL</li>
+    </ul>
   </div>
 
 </div><!-- /#navigation -->

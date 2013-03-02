@@ -26,13 +26,28 @@ li a.active {
 }
 
 #navigation-more-button {
-  background: url("../images/navigation-more-button.png") no-repeat scroll center center transparent;
+/*  background: url("../images/navigation-more-button.png") no-repeat scroll center center transparent;*/
   width: 100%;
   height: 1em;
   cursor: pointer;
   background-color: #999a94;
   box-shadow: 0 0 10px 0 silver;
   position: relative;
+}
+#navigation-more-button ul {
+  font-size: 12px;
+  font-weight: bold;
+  color: #ffffff;
+  margin: 0;
+  padding: 0;
+  float: right;
+}
+#navigation-more-button ul li {
+  float: left;
+  line-height: 13px;
+  margin: 0 5px;
+  padding: 0 5px;
+  background-color: #d08d85;
 }
 
 #navigation .block {
@@ -75,6 +90,10 @@ li a.active {
 
 #main-menu {
   display: none;
+  background-color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 5px 20px;
 }
 
 #secondary-menu {
