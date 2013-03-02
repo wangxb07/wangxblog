@@ -68,10 +68,6 @@ li a.active {
   display: none;
   background-color: #ffffff;
 }
-.region-navigation .block {
-  width: 25%;
-  float: left;
-}
 
 /*
  * Main menu and Secondary menu links

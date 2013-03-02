@@ -108,6 +108,10 @@
     margin-right: -20%;
     position: absolute;
   }
+  .region-navigation .block {
+    float: left;
+    width: 50%;
+  }
 
   /*
    * The layout when there is only one sidebar, the right one.
@@ -225,6 +229,10 @@
     margin-left: 0%;
     margin-right: -10%;
     position: absolute;
+  }
+  .region-navigation .block {
+    float: left;
+    width: 25%;
   }
 
   /*
