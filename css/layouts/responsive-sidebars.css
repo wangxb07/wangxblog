@@ -70,17 +70,16 @@
 /*
  * Navigation bar
  */
+#navigation {
+  position: fixed;
+  top: 0; /* Move the navbar up inside #main's padding. */
+  width: 100%;
+}
 
 @media all and (min-width: 480px) {
   #main {
     padding-top: 0; /* Move all the children of #main down to make room. */
     position: relative;
-  }
-
-  #navigation {
-    position: fixed;
-    top: 0; /* Move the navbar up inside #main's padding. */
-    width: 100%;
   }
 }
 
